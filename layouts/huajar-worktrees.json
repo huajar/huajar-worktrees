@@ -1,5 +1,6 @@
 {
   "id": "root",
+  "preview": "layouts/huajar-worktrees.svg",
   "cloned_from": {
     "name": "main",
     "version": "0.1.11"

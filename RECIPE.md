@@ -56,6 +56,7 @@ The same regions as Herdr's `main` layout, unchanged in size, color and type: a 
 - `mods/huajar-tabs/`: `mod.clone` of `tabs`, with its own `win-*.svg` window buttons. A copy of `huajar-agents`' `sessionTitle`; the label is `c.named ? c.name : sessionTitle(agentPane.title, agentPane.program, space.name)`, falling back to the shipped label. `agentPane` is the tab's first pane in `panes()` with `program.agent`.
 - `huajar-spaces` and `huajar-agents` run **`git`** through `exec`, on the space's machine. They don't use the network, read no files, and add no timers: the shipped 250ms/15s/30s timers and the `.git` watch are all they use.
 - Icon: `mods/workspace-chrome/branch.svg`, shipped with Herdr.
+- `layouts/huajar-worktrees.svg`: the Settings thumbnail (`"preview"` on the layout root), a 320x200 sketch of the window in the graphite colors.
 
 ## Watch out
 
